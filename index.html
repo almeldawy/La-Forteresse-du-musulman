@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Couverture — La Forteresse du musulman</title>
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem('hisn:theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body data-root="" data-page="couverture">
+<header class="topbar">
+  <button id="tocToggle" class="icon-btn" aria-label="Sommaire">☰</button>
+  <a class="brand" href="index.html"><span class="brand-ar" lang="ar">حصن المسلم</span><span class="brand-fr">La Forteresse du musulman</span></a>
+  <div class="tools">
+    <button id="fontMinus" class="icon-btn" title="Réduire le texte arabe">A−</button>
+    <button id="fontPlus" class="icon-btn" title="Agrandir le texte arabe">A+</button>
+    <button id="bmOpen" class="icon-btn" title="Marque-pages">★</button>
+    <button id="themeToggle" class="icon-btn" title="Mode clair / sombre">◐</button>
+  </div>
+  <div id="progressBar"><span></span></div>
+</header>
+<aside id="sidebar">
+  <div class="side-head">
+    <input id="tocSearch" type="search" placeholder="Rechercher un chapitre…">
+    <div class="side-progress"><span id="sideProgressTxt"></span><button id="resetProgress" class="link-btn">Réinitialiser</button></div>
+  </div>
+  <nav id="toc"></nav>
+</aside>
+<div id="overlay"></div>
+<main id="content">
+<section class="cover-page"><div class="cover-frame"><div class="cover-inner">
+<div class="orn" aria-hidden="true">۞</div>
+<p class="series" lang="ar" dir="rtl">سلسلة مؤلفات سعيد بن علي بن وهف القحطاني (٧٧)</p>
+<h1 class="cover-ar" lang="ar" dir="rtl">حِصْنُ الْمُسْلِمِ</h1>
+<p class="cover-sub-ar" lang="ar" dir="rtl">مِنْ أَذْكَارِ الْكِتَابِ وَالسُّنَّةِ</p>
+<div class="sep" aria-hidden="true"><span></span>◆<span></span></div>
+<h2 class="cover-fr">La Forteresse du musulman</h2>
+<p class="cover-sub">Les évocations et invocations tirées du Livre et de la Sunna</p>
+<p class="cover-author-ar" lang="ar" dir="rtl">تأليف الفقير إلى الله تعالى<br>د. سعيد بن علي بن وهف القحطاني</p>
+<p class="cover-author">Dr Saʿîd ibn ʿAlî ibn Wahf al-Qahtânî</p>
+<p class="cover-trad">Traduction française intégrale · 132 chapitres · 267 invocations</p>
+<div class="cover-actions"><a class="btn cover-btn" href="chapitres/biographie.html">Commencer la lecture</a><a class="btn ghost" id="resumeBtn" hidden>Reprendre la lecture</a></div>
+<div class="home-progress"><div class="hp-bar"><span id="homeBar"></span></div><span id="homeTxt"></span></div>
+<div class="orn" aria-hidden="true">۞</div>
+</div></div></section><nav class="chap-nav"><span></span><a class="nav-next" href="chapitres/biographie.html">Biographie de l&#x27;auteur →</a></nav>
+</main>
+<div id="notePop" role="dialog" aria-modal="false" hidden><button class="close" aria-label="Fermer">×</button><div class="inner"></div></div>
+<div id="bmPanel" hidden><div class="bm-box"><div class="bm-top"><h3>Marque-pages</h3><button class="close" aria-label="Fermer">×</button></div><ul id="bmList"></ul></div></div>
+<script src="assets/js/toc.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
